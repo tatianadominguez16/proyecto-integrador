@@ -158,6 +158,20 @@ nav a{
         text-align: center;
     }
 
+    .mer{
+      min-height: 10vh;
+      text-align: center;
+      padding: 50px;
+    }
+
+    .mer .pantallazo img{
+      border-radius: 40px;
+    }
+
+    .mer .pantallazo:hover{
+      filter:sepia()
+    }
+
     footer{
     background-color:rgba(236, 199, 241, 0.6);
     min-height: 10vh;
