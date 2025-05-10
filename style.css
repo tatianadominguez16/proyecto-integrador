@@ -111,7 +111,7 @@ nav a{
     }
 
     main .main{
-    background-color: rgb(20, 15, 38);
+    background-color: rgba(251, 177, 253, 0.3);
     display: flex;
     min-height: 15vh;
     gap: 10px;
@@ -170,6 +170,18 @@ nav a{
 
     .mer .pantallazo:hover{
       filter:sepia()
+    }
+
+    .main{
+      min-height: 10vh;
+      text-align: center;
+      padding: 50px;
+
+    }
+
+    .main .screen .img{
+      border-radius: 40px;
+      
     }
 
     footer{
