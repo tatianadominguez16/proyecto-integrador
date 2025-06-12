@@ -20,14 +20,44 @@
         <a href="logica.html">Logica</a>
         <a href="contactos.html">Contactos</a>
     </nav>
-    <main>
-         <div class="main">
-            <div class="screen">
-                <img src="imagenes/Captura de pantalla 2025-05-10 093611.png" alt="logica">
-            </div>
-        </div>
+    <br>
+    <h2>INGRESA TUS DATOS PARA SOLICITAR TU CITA MEDICA</h2>
+    <BR></BR>
+    <form id="citaForm">
+        <label>Nombre Completo:</label>
+        <input type="text" id="nombre" required>
 
-    </main>
+        <label>Fecha de Nacimiento:</label>
+        <input type="date" id="fecha_nacimiento" required>
+
+        <label>Teléfono de Contacto:</label>
+        <input type="tel" id="telefono" required>
+
+        <label>Correo Electrónico:</label>
+        <input type="email" id="correo" required>
+
+        <label>Sede de Cita:</label>
+        <select id="sede">
+            <option value="Centro">Centro</option>
+            <option value="Bello">Bello</option>
+        </select><label>Fecha y Hora de la Cita:</label>
+        <input type="datetime-local" id="fecha_hora" required>
+
+        <label>Doctor/a:</label>
+        <select id="doctor">
+            <option value="Carlos Enrique Peña">Carlos Enrique Peña</option>
+            <option value="Maria Isabel Lopera">Maria Isabel Lopera</option>
+            <option value="Camila Clavijo">Camila Clavijo</option>
+        </select>
+
+        <button type="button" onclick="agendarCita()">Agendar Cita</button>
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="script.js"></script>
+    
+    
     <footer>
         <p>  Síguenos en nuestas redes sociales </p>
         <div class="redes">

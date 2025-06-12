@@ -324,9 +324,9 @@ form .btn {
   width: 45%;
   padding: 30px;
   border-radius: 10px;
-  background-color: rgba(245, 230, 250, 0.8); /* Color diferente para cada sección */
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); /* Efecto de sombra */
-  border: 2px solid #af6ca1; /* Borde distintivo */
+  background-color: rgba(245, 230, 250, 0.8); 
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2); 
+  border: 2px solid #af6ca1; 
   margin-top: 30px;
 }
 
@@ -335,28 +335,28 @@ footer {
   text-align: center;
   padding: 20px;
   width: 100%;
-  position: relative; /* Para que no tape el contenido */
+  position: relative;
 }
 
 @media (max-width: 768px) {
   .contenedor-principal {
-      flex-direction: column; /* Cambia la disposición para móviles */
+      flex-direction: column; 
       align-items: center;
       gap: 20px;
   }
 
   .registro-container, .crud-container {
-      width: 90%; /* Ajusta el tamaño de los elementos */
-      margin: auto; /* Centra las cajas */
+      width: 90%; 
+      margin: auto; 
   }
 
   nav {
-      flex-direction: column; /* Hace que el menú se vea en lista */
+      flex-direction: column; 
       align-items: center;
   }
 
   .tabla-container {
-      overflow-x: auto; /* Permite desplazamiento horizontal si la tabla es muy grande */
+      overflow-x: auto; 
   }
 }
 
@@ -414,4 +414,47 @@ footer .redes{
 footer .redes img{
   width: 50px;
   border-radius: 50%;
+}
+
+
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    text-align: center;
+    padding: 20px;
+}
+
+form {
+    background: white;
+    padding: 20px;
+    border-radius: 10px;
+    width: 50%;
+    margin: auto;
+}
+
+input, select {
+    width: 100%;
+    padding: 8px;
+    margin: 10px 0;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+button {
+    background-color: #28a745;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #218838;
+}
+
+#resultado {
+    margin-top: 20px;
+    font-weight: bold;
 }
