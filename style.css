@@ -6,7 +6,7 @@
 
 @font-face{
     font-family: fuente1;
-    src: url(Fuente/Quitle\ Italic.otf);
+    src: url(Fuente/ConcertOne-Regular.ttf);
 }
 
 html{
@@ -358,6 +358,15 @@ footer {
   .tabla-container {
       overflow-x: auto; 
   }
+main.main{
+   flex-direction: column;
+    align-items: center;
+}
+  .redes{
+    flex-direction: column;
+    align-items: center;
+  }
+
 }
 
 .seccion-contacto {
